@@ -43,21 +43,21 @@ namespace Fofanius.Types
         /// Generates random number in range [<see cref="Range.A"/>..<see cref="Range.B"/>] using <see cref="UnityEngine.Random.Range(float, float)"/>
         /// </summary>
         /// <returns>Generated random nubmer.</returns>
-        public float GetRandom() => UnityEngine.Random.Range(A, B);
+        public readonly float GetRandom() => UnityEngine.Random.Range(A, B);
 
         /// <summary>
         /// Clamps <paramref name="value"/> between <see cref="Range.A"/> and <see cref="Range.B"/> using <see cref="UnityEngine.Mathf.Clamp(float, float, float)"/>.
         /// </summary>
         /// <param name="value">Value to clamp</param>
         /// <returns>Clamped value.</returns>
-        public float Clamp(float value) => Mathf.Clamp(value, A, B);
+        public readonly float Clamp(float value) => Mathf.Clamp(value, A, B);
 
         /// <summary>
         /// Returns limearly interpolated value between <see cref="Range.A"/> and <see cref="Range.B"/> by <paramref name="t"/> using <see cref="UnityEngine.Mathf.Lerp(float, float, float)"/>.
         /// </summary>
         /// <param name="t">Interpolation value [0f..1f].</param>
         /// <returns>Interpolation result.</returns>
-        public float Lerp(float t) => Mathf.Lerp(A, B, t);
+        public readonly float Lerp(float t) => Mathf.Lerp(A, B, t);
 
         #region IEquatable
 
