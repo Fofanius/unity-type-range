@@ -1,6 +1,6 @@
 # Range by Fofanius
 
-`Range` package provides additional type to store range and additional set of methods related to it.
+`Range` package provides additional type to store range (like [a; b]) and additional set of methods related to it.
 
 ## Installation
 
