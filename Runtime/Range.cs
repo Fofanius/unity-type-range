@@ -6,6 +6,9 @@ namespace Fofanius.Types
     [Serializable]
     public struct Range : IEquatable<Range>
     {
+        public static readonly Range Zero = new Range(0f, 0f);
+        public static readonly Range One = new Range(0f, 1f);
+
         [SerializeField] private float _a;
         [SerializeField] private float _b;
 
