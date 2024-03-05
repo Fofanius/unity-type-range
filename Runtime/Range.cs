@@ -37,6 +37,8 @@ namespace Fofanius.Types
             _b = b;
         }
 
+        public override string ToString() => $"[{_a}; {_b}]";
+
         /// <summary>
         /// Generates random number in range [<see cref="Range.A"/>..<see cref="Range.B"/>] using <see cref="UnityEngine.Random.Range(float, float)"/>
         /// </summary>
