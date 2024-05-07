@@ -1,6 +1,18 @@
 {
-  "name": "com.fofanius.unity-type.range.editor",
-  "references": [
-    "GUID:32f2ab602acf44548e19b81f02fbe119"
-  ]
+    "name": "com.fofanius.unity-type.range.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:32f2ab602acf44548e19b81f02fbe119"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
